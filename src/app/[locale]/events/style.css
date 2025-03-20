@@ -1,0 +1,103 @@
+.box {
+    height: 515px;
+    position: relative;
+    width: 1070px;
+  }
+  
+  .box .section {
+    height: 515px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1074px;
+  }
+  
+  .box .group {
+    height: 468px;
+    left: 602px;
+    position: absolute;
+    top: 0;
+    width: 468px;
+  }
+  
+  .box .overlap {
+    height: 167px;
+    left: 0;
+    position: absolute;
+    top: 186px;
+    width: 458px;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Product Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: justify;
+    top: 0;
+    width: 458px;
+  }
+  
+  .box .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 128px;
+    width: 116px;
+  }
+  
+  .box .overlap-group {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 22.5px;
+    height: 39px;
+    position: relative;
+    width: 114px;
+  }
+  
+  .box .div {
+    color: #000000;
+    font-family: "Product Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: -1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 114px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #000000;
+    font-family: "Bungee Shade-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 115px;
+    left: 79px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 52px;
+    white-space: nowrap;
+  }
+  
+  .box .line {
+    height: 1px;
+    left: 104px;
+    object-fit: cover;
+    position: absolute;
+    top: 514px;
+    width: 844px;
+  }
+  
