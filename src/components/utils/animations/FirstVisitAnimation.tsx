@@ -80,8 +80,9 @@ export default function FirstVisitAnimation() {
               </motion.div>
               
               <motion.h1
-                className="text-2xl text-center mb-2"
+                className="text-2xl text-center mb-2 select-none"
                 initial={{ y: 20, opacity: 0 }}
+                draggable={false}
                 animate={{ 
                   y: 0, 
                   opacity: 1,
