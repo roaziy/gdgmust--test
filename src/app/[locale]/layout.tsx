@@ -5,7 +5,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   const isAuthorized = false; // Replace this with your auth logic
 
   if (!isAuthorized) {
-    redirect('https://another-website.com');
+    redirect('https://gdgmust.dev');
   }
 
   return <>{children}</>;
